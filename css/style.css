@@ -42,21 +42,23 @@ h1{
 	position: absolute;
 	font-family: helvetica;
 	opacity: 0;
-	top: 50%;
+	top:0;
+	bottom:0;
 	transform: translate(-50% -50%)
 	color: #fff;
 	font-size: 25px;
 	pointer-events: none;
 	z-index: 4;
 	color:rgb(250,250,0);
+	align-items: center;
 	/**transition: 3s ease-in-out;
 	-webkit-backdrop-filter:blur(5px) saturate(1.8);
 	-backdrop-filter:blur(5px) saturate(1.8);**/
 }
 .gallery-item:hover .text{
+	background:rgb(32,32,32,0.7);
 	opacity: 1;
 	/**animation: move-down .3s ;**/
-	padding: 1em;
 	width: 100%;
 
 }
